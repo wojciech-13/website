@@ -1,0 +1,60 @@
+.content{
+    background-image: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(70, 20, 20);
+    min-height: 85vh;
+}
+
+.score, .winOrLose{
+    padding-top: 10px;
+    font-size: 40px;
+    color: gold;
+}
+
+#start{                   
+    margin: 20px;
+    background: #3498db;
+    width: 180px;
+    padding: 4px 0;  
+    border-radius: 3px;
+    font-family: 'Roboto'; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    user-select: none;
+    outline: none;
+}
+#start:hover{
+    cursor: pointer;
+}
+#restart{
+    display: none;
+    margin: 20px;
+    background: #34db34;
+    width: 180px;
+    padding: 4px 0;  
+    border-radius: 3px;
+    font-family: 'Roboto'; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    user-select: none;
+    outline: none;
+}
+#restart:hover{
+    cursor: pointer;
+}
+
+/* CANVAS */
+#draw{
+    border: 3px solid #fff;
+}
+
+
+.hidden{
+    display: none;
+}

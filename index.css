@@ -1,0 +1,47 @@
+.content{
+    background-color: rgb(195, 195, 248);
+    min-height: 85vh;
+    position: relative;
+}
+
+.text{
+    line-height: 140%;
+    padding: 10px 50px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(94, 7, 29);
+    margin-bottom: 22px;
+    margin-top: 10px;
+    font-family: Calibri, 'Trebuchet MS';
+    font-style: oblique;
+}
+p{
+    margin-bottom: 10px;
+}
+.sideImage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    margin-left: 20px;
+    width: 200px;
+    height: 155px;
+}
+.withImg {
+    display: flex;
+    color: rgb(68, 4, 4);
+    cursor: default;
+}
+.bottomLinks{
+    color: rgb(0, 4, 250);
+}
+h1, h2, h3{
+    cursor: default;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pong Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="game.css"/>
+    
+</head>
+<body>
+    
+        <div class="container">
+            
+            <div class="topPartContainer">
+                <a href="../index.html"><span class="topPartContent"> Main page </span></a>
+                <div class="contactBox">
+                    <table>
+                        <tr><th>Contact:</th></tr>
+                        <tr><td>Wojciech Borkowski</td></tr>
+                        <tr><td>30-150 Kraków</td></tr>
+                        <tr><td>Phone: 531 162 815</td></tr>
+                        <tr><td><a href="mailto:wojciechborkowski13@gmail.com">wojciechborkowski13@gmail.com</a></td></tr>
+                    </table>
+                </div>
+            </div>
+            <!--end div topContainer-->
+
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html"><span class="link">INFO</span></a></li>
+                    <li class = "break"><span>||</span></li>
+                    <li><a href="../cube/cube.html"><span class="link">Cube</span></a></li>
+                    <li class = "break"><span>||</span></li>
+                    <li><a href="../clock/clock.html"><span class="link">Clock</span></a></li>
+                    <li class = "break"><span>||</span></li>
+                    <li><a href="../painting/painting.html"><span class="link">Painting</span></a></li>
+                    <li class = "break"><span>||</span></li>
+                    <li><a href="game.html"><span class="link">Game</span></a></li>
+                </ul>
+            </div>
+            <!--End div menu-->
+
+            <div class="content">
+                <div class="winOrLose"></div>
+                    <div class='score'>
+                        <span class='scoreHero'></span>
+                        :
+                        <span class='scoreVillain'></span>
+                    </div>
+                
+                <button id="start">START GAME</button>
+                <button id="restart">RESTART</button>
+                <canvas id="draw" ></canvas>
+                
+                
+                
+                
+            </div>
+
+        </div>
+        <!--end div container-->
+        <script src="game.js"></script>
+</body>
+</html>
