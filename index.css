@@ -34,7 +34,7 @@ img{
     width: 200px;
     height: 155px;
     display: flex;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 .withImg {
     display: flex;
